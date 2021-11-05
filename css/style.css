@@ -1,0 +1,81 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+ 
+    background-image: url(Event-Management.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family:sans-serif;
+}
+.menu-bar
+{
+    text-align: center;
+}
+.menu-bar ul
+{
+display: inline-flex;
+list-style: none;
+color: palegreen;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color:rgb(17, 8, 2);
+}
+.menu-bar ul li:hover
+{
+    background: #2bab0d;
+    border-radius: 3px;
+}
+
+.menu-bar ul li:hover .sub-menu-1{
+    display:block;
+    position: absolute;
+    background-color: rgb(o, 100, 0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display:block;
+    margin:10px;
+}
+.title h1{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color: white;
+
+}
+.button{
+    position:absolute;
+    top: 65%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color: red;
+  
+}
+.btn{
+    border: 1px solid #000;
+    padding: 10px 30px;
+    color:green;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: rgb(163, 64, 81) (103, 129, 114);
+    color: #0000;
+
+}
