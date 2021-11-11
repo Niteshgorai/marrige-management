@@ -6,10 +6,9 @@
 }
 body
 {
- 
-    background-image: url(Event-Management.jpg);
+    background-image: url(3.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     font-family:sans-serif;
 }
 .menu-bar
@@ -27,29 +26,16 @@ color: palegreen;
     width: 120px;
     margin: 15px;
     padding: 15px;
-
 }
 .menu-bar ul li a
 {
     text-decoration: none;
-    color:rgb(17, 8, 2);
+    color:yellowgreen;
 }
 .menu-bar ul li:hover
 {
     background: #2bab0d;
     border-radius: 3px;
-}
-
-.menu-bar ul li:hover .sub-menu-1{
-    display:block;
-    position: absolute;
-    background-color: rgb(o, 100, 0);
-    margin-top: 15px;
-    margin-left: -15px;
-}
-.menu-bar ul li:hover .sub-menu-1 ul{
-    display:block;
-    margin:10px;
 }
 .title h1{
     position:absolute;
@@ -57,7 +43,6 @@ color: palegreen;
     left:50%;
     transform:translate(-50%,-50%);
     color: white;
-
 }
 .button{
     position:absolute;
@@ -65,7 +50,6 @@ color: palegreen;
     left:50%;
     transform:translate(-50%,-50%);
     color: red;
-  
 }
 .btn{
     border: 1px solid #000;
@@ -77,5 +61,4 @@ color: palegreen;
 .btn:hover{
     background-color: rgb(163, 64, 81) (103, 129, 114);
     color: #0000;
-
 }

@@ -127,3 +127,10 @@ label{
     font-size: 22px !important;
     color: #da2128 !important;
   }
+  .footer{
+	text-align: center;
+	padding: 3px;
+	background-color: DarkSalmon;
+	color: white;top:-235px;
+	position: relative;
+   }
